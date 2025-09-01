@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\DataObjects;
 
+use App\Enums\SkillLevel;
+
 readonly class Skill
 {
     /**
@@ -11,7 +13,7 @@ readonly class Skill
      */
     public function __construct(
         public string $name = '',
-        public string $level = '',
+        public ?SkillLevel $level = null,
         public array $keywords = [],
     ) {
     }
@@ -20,7 +22,7 @@ readonly class Skill
     {
         return new self(
             name: $data['name'] ?? '',
-            level: $data['level'] ?? '',
+            level: SkillLevel::fromString($data['level'] ?? ''),
             keywords: is_array($data['keywords'] ?? null) ? $data['keywords'] : [],
         );
     }

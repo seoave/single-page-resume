@@ -87,10 +87,4 @@ readonly class Resume
             ),
         );
     }
-
-    public static function fromJson(string $json): self
-    {
-        $data = json_decode($json, true) ?? [];
-        return self::fromArray($data);
-    }
 }

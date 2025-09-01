@@ -19,6 +19,16 @@
         "network": "Twitter",
         "username": "john",
         "url": "https://twitter.com/john"
+      },
+      {
+        "network": "Git",
+        "username": "john",
+        "url": "https://github.com/codearch-app/single-page-digital-resume-laravel"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "john",
+        "url": "https://www.linkedin.com/in/john"
       }
     ]
   },
@@ -29,10 +39,20 @@
       "url": "https://company.com",
       "startDate": "2013-01-01",
       "endDate": "2014-01-01",
-      "summary": "Description…",
+      "summary": "Did my job very good.",
       "highlights": [
-        "Started the company"
+        "Started the company",
+        "Managed to get 100k+ customers",
+        "Won the award for best new product"
       ]
+    },
+    {
+      "name": "Other Company",
+      "position": "Developer"
+    },
+    {
+      "name": "First Company",
+      "position": "Courier"
     }
   ],
   "volunteer": [
@@ -42,7 +62,7 @@
       "url": "https://organization.com/",
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
-      "summary": "Description…",
+      "summary": "Description of experience.",
       "highlights": [
         "Awarded 'Volunteer of the Month'"
       ]
