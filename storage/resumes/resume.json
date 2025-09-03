@@ -88,6 +88,12 @@
       "date": "2014-11-01",
       "awarder": "Company",
       "summary": "There is no spoon."
+    },
+    {
+      "title": "Oscar",
+      "date": "2025-11-01",
+      "awarder": "NCA",
+      "summary": "Best soundtrack."
     }
   ],
   "certificates": [
