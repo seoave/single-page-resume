@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "John Doe",
+    "name": "Bernard Lowe",
     "label": "Programmer",
-    "image": "",
-    "email": "john@gmail.com",
+    "image": "https://i.pinimg.com/474x/21/69/4c/21694cb0ee2533cd0746f33692a14c5f.jpg",
+    "email": "bernard.lowe@delos.com",
     "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "url": "https://bernard.lowe",
+    "summary": "Bernard is created in the image of Arnold Weber after his death. Some years after Arnold died, Bernard was created by Dr. Robert Ford. Ford programmed Bernard to think of himself as a human. Bernard worked as a member of staff collaborating closely with Dr Robert Ford.[1] Bernard was unaware that he was a host initially, and worked as the head of Delos' Westworld Programming Division — his host status is eventually revealed by Ford, much to Bernard (and Delos') surprise.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",

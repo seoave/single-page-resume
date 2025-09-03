@@ -51,8 +51,7 @@
     @endif
 
     @if($resume->skills)
-        <section>
-            <h2 class="text-2xl font-bold text-gray-900 mt-12">Skills</h2>
+        <x-resume.section title="Skills">
             @foreach($resume->skills as $skill)
                 <article>
                     @if($skill->name)
@@ -68,12 +67,11 @@
                     @endif
                 </article>
             @endforeach
-        </section>
+        </x-resume.section>
     @endif
 
     @if($resume->languages)
-        <section>
-            <h2 class="text-2xl font-bold text-gray-900 mt-12">Languages</h2>
+        <x-resume.section title="Languages">
             @foreach($resume->languages as $language)
                 <article>
                     @if($language->language && $language->fluency)
@@ -81,12 +79,11 @@
                     @endif
                 </article>
             @endforeach
-        </section>
+        </x-resume.section>
     @endif
 
     @if($resume->interests)
-        <section>
-            <h2 class="text-2xl font-bold text-gray-900 mt-12">Interests</h2>
+        <x-resume.section title="Interests">
             @foreach($resume->interests as $interest)
                 <article>
                     @if($interest->name)
@@ -101,12 +98,11 @@
                     @endif
                 </article>
             @endforeach
-        </section>
+        </x-resume.section>
     @endif
 
     @if($resume->references)
-        <section>
-            <h2 class="text-2xl font-bold text-gray-900 mt-12">References</h2>
+        <x-resume.section title="References">
             @foreach($resume->references as $ref)
                 <article>
                     @if($ref->name)
@@ -117,7 +113,7 @@
                     @endif
                 </article>
             @endforeach
-        </section>
+        </x-resume.section>
     @endif
 
     @if($resume->projects)
